@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 #region top-level statement ve global (implicitly) usings
+using Csharp10NewFeatures;
 using System.Linq.Expressions;
 
 void showSomething(string something)
@@ -40,9 +41,44 @@ Action<string> write = Console.Write;
 //var write = Console.Write; Çalışmaz. Çünkü hangi Write overload'u?
 #endregion
 
+#region Lambda fonksiyona dönüş değeri belirtme:
+
+var result = object (bool isOk) => isOk ? 1 : "İşlem hatalı";
+
+#endregion
+
 
 
 
 #endregion
+
+
+#region Record ve Record Structure kavramları
+
+ProductRecord productRecord1 = new ProductRecord(1, "Çamaşır Makinası", 30000);
+ProductRecord productRecord2 = new ProductRecord(3, "Çamaşır Makinası", 30000);
+
+Console.WriteLine($"record1 == record2 karşılaştırma sonucu:{productRecord1 == productRecord2}");
+Console.WriteLine($"record1.Equals(record2) karşılaştırma sonucu:{productRecord1.Equals(productRecord2)}");
+Console.WriteLine($"record1.GetHashCode() == record2.GetHashCode()  karşılaştırma sonucu:{productRecord1.GetHashCode() == productRecord2.GetHashCode()}");
+
+ProductRecord productRecord3 = productRecord1;
+
+Point point = new Point();
+
+List<Address> addresses = new()
+{
+    new("Eskişehir","Sümer","Türkiye"),
+    new("İstanbul","Kartal","Türkiye"),
+
+};
+
+Address searchingAddress = new("Eskişehir", "Sümer", "Türkiye");
+var isFind = addresses.Any(x => x == searchingAddress);
+Console.WriteLine($"Adres içinde yer alıyor mu: {isFind}");
+
+#endregion
+
+
 
 
