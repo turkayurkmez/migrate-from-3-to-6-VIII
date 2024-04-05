@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewFeaturesOfNETSix", "NewFeaturesOfNETSix\NewFeaturesOfNETSix.csproj", "{FF04FF95-D734-469B-B206-8FE8E718F1DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF04FF95-D734-469B-B206-8FE8E718F1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF04FF95-D734-469B-B206-8FE8E718F1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF04FF95-D734-469B-B206-8FE8E718F1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF04FF95-D734-469B-B206-8FE8E718F1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A52B3C53-DEDE-405A-AD4D-D9CC51E48458}
+	EndGlobalSection
+EndGlobal
