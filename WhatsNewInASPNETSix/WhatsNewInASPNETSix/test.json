@@ -1,0 +1,96 @@
+[
+  {
+    "EventId": 0,
+    "LogLevel": "Information",
+    "Category": "WhatsNewInASPNETSix",
+    "Message": "Uygulama ad\u0131: WhatsNewInASPNETSix",
+    "State": {
+      "Message": "Uygulama ad\u0131: WhatsNewInASPNETSix",
+      "{OriginalFormat}": "Uygulama ad\u0131: WhatsNewInASPNETSix"
+    }
+  }
+  {
+    "EventId": 0,
+    "LogLevel": "Information",
+    "Category": "WhatsNewInASPNETSix",
+    "Message": "Web k\u00F6k dizin: C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\MigrateFromTwoVersions\\Group 8\\WhatsNewInASPNETSix\\WhatsNewInASPNETSix\\wwwroot",
+    "State": {
+      "Message": "Web k\u00F6k dizin: C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\MigrateFromTwoVersions\\Group 8\\WhatsNewInASPNETSix\\WhatsNewInASPNETSix\\wwwroot",
+      "{OriginalFormat}": "Web k\u00F6k dizin: C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\MigrateFromTwoVersions\\Group 8\\WhatsNewInASPNETSix\\WhatsNewInASPNETSix\\wwwroot"
+    }
+  }
+  {
+    "EventId": 0,
+    "LogLevel": "Information",
+    "Category": "WhatsNewInASPNETSix",
+    "Message": "Kod k\u00F6k dizin: C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\MigrateFromTwoVersions\\Group 8\\WhatsNewInASPNETSix\\WhatsNewInASPNETSix\\",
+    "State": {
+      "Message": "Kod k\u00F6k dizin: C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\MigrateFromTwoVersions\\Group 8\\WhatsNewInASPNETSix\\WhatsNewInASPNETSix\\",
+      "{OriginalFormat}": "Kod k\u00F6k dizin: C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\MigrateFromTwoVersions\\Group 8\\WhatsNewInASPNETSix\\WhatsNewInASPNETSix\\"
+    }
+  }
+  {
+    "EventId": 0,
+    "LogLevel": "Information",
+    "Category": "WhatsNewInASPNETSix",
+    "Message": "Ortam Ad\u0131: Staging",
+    "State": {
+      "Message": "Ortam Ad\u0131: Staging",
+      "{OriginalFormat}": "Ortam Ad\u0131: Staging"
+    }
+  }
+  {
+    "EventId": 14,
+    "LogLevel": "Information",
+    "Category": "Microsoft.Hosting.Lifetime",
+    "Message": "Now listening on: https://localhost:7184",
+    "State": {
+      "Message": "Now listening on: https://localhost:7184",
+      "address": "https://localhost:7184",
+      "{OriginalFormat}": "Now listening on: {address}"
+    }
+  }
+  {
+    "EventId": 14,
+    "LogLevel": "Information",
+    "Category": "Microsoft.Hosting.Lifetime",
+    "Message": "Now listening on: http://localhost:5072",
+    "State": {
+      "Message": "Now listening on: http://localhost:5072",
+      "address": "http://localhost:5072",
+      "{OriginalFormat}": "Now listening on: {address}"
+    }
+  }
+  {
+    "EventId": 0,
+    "LogLevel": "Information",
+    "Category": "Microsoft.Hosting.Lifetime",
+    "Message": "Application started. Press Ctrl\u002BC to shut down.",
+    "State": {
+      "Message": "Application started. Press Ctrl\u002BC to shut down.",
+      "{OriginalFormat}": "Application started. Press Ctrl\u002BC to shut down."
+    }
+  }
+  {
+    "EventId": 0,
+    "LogLevel": "Information",
+    "Category": "Microsoft.Hosting.Lifetime",
+    "Message": "Hosting environment: Staging",
+    "State": {
+      "Message": "Hosting environment: Staging",
+      "envName": "Staging",
+      "{OriginalFormat}": "Hosting environment: {envName}"
+    }
+  }
+  {
+    "EventId": 0,
+    "LogLevel": "Information",
+    "Category": "Microsoft.Hosting.Lifetime",
+    "Message": "Content root path: C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\MigrateFromTwoVersions\\Group 8\\WhatsNewInASPNETSix\\WhatsNewInASPNETSix\\",
+    "State": {
+      "Message": "Content root path: C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\MigrateFromTwoVersions\\Group 8\\WhatsNewInASPNETSix\\WhatsNewInASPNETSix\\",
+      "contentRoot": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\MigrateFromTwoVersions\\Group 8\\WhatsNewInASPNETSix\\WhatsNewInASPNETSix\\",
+      "{OriginalFormat}": "Content root path: {contentRoot}"
+    }
+  }
+]

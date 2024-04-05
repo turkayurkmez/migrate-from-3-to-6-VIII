@@ -1,8 +1,17 @@
-﻿@{
+﻿@model IEnumerable<ProductDto>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Hoşgeldin @ViewBag.Name</h1>
+    <p>Senin için ürünlerimizi listeledik:</p>
 </div>
+
+<h3>Ürünlerimiz</h3>
+<ul class="list-group">
+    @foreach (var product in Model)
+    {
+        <li class="list-group-item">@product.Name (@product.Price TL)</li>
+    }
+</ul>
